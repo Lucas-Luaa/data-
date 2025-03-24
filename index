@@ -1,184 +1,21 @@
-[Igris] = {
-	[Name] = Vermillion,
-	[HP] = 50000,
-},
-[SL4] = {
-	[Name] = LongIn,
-	[HP] = 10000,
-},
-[SLB5] = {
-	[Name] = Anders,
-	[HP] = 50000,
-},
-[OPB2] = {
-	[Name] = Eminel,
-	[HP] = 5000000000,
-},
-[SLB2] = {
-	[Name] = Gonshee,
-	[HP] = 50000,
-},
-[JinWoo] = {
-	[Name] = Monarch,
-	[HP] = 5000000000,
-},
-[NRB2] = {
-	[Name] = Blossom,
-	[HP] = 15000000,
-},
-[BC2] = {
-	[Name] = Michille,
-	[HP] = 5000000000000,
-},
-[JJ4] = {
-	[Name] = Ant King,
-	[HP] = 450000,
-},
-[BL3] = {
-	[Name] = Genji,
-	[HP] = 98500000000,
-},
-[BLB2] = {
-	[Name] = Fyakuya,
-	[HP] = 600000000000,
-},
-[BC3] = {
-	[Name] = Wind,
-	[HP] = 13000000000000,
-},
-[JJ2] = {
-	[Name] = Royal Red Ant,
-	[HP] = 135000,
-},
-[NRB1] = {
-	[Name] = Snake Man,
-	[HP] = 15000000,
-},
-[Ulquiorra] = {
-	[Name] = Murcielago,
-	[HP] = 6000000000000,
-},
-[NR3] = {
-	[Name] = Black Crow,
-	[HP] = 3000000,
-},
-[Julius] = {
-	[Name] = Time King,
-	[HP] = 50000000000000,
-},
-[BL2] = {
-	[Name] = Fyakuya,
-	[HP] = 38500000000,
-},
-[NRB3] = {
-	[Name] = Black Crow,
-	[HP] = 15000000,
-},
-[JJ1] = {
-	[Name] = Red Ant,
-	[HP] = 50000,
-},
-[SLB6] = {
-	[Name] = Largalgan,
-	[HP] = 50000,
-},
-[SLB3] = {
-	[Name] = Daek,
-	[HP] = 50000,
-},
-[NR2] = {
-	[Name] = Blossom,
-	[HP] = 300000,
-},
-[BCB2] = {
-	[Name] = Michille,
-	[HP] = 35000000000000,
-},
-[Mihalk] = {
-	[Name] = Mifalcon,
-	[HP] = 5000000000,
-},
-[SL3] = {
-	[Name] = Daek,
-	[HP] = 5000,
-},
-[OP3] = {
-	[Name] = Light Admiral,
-	[HP] = 1800000000,
-},
-[OPB1] = {
-	[Name] = Shark Man,
-	[HP] = 5000000000,
-},
-[SLB1] = {
-	[Name] = Soondoo,
-	[HP] = 50000,
-},
-[Pain] = {
-	[Name] = Dor,
-	[HP] = 15000000,
-},
-[SL6] = {
-	[Name] = Largalgan,
-	[HP] = 30000,
-},
-[SLB4] = {
-	[Name] = LongIn,
-	[HP] = 50000,
-},
-[SL2] = {
-	[Name] = Gonshee,
-	[HP] = 500,
-},
-[NR1] = {
-	[Name] = Snake Man,
-	[HP] = 55000,
-},
-[BLB3] = {
-	[Name] = Genji,
-	[HP] = 600000000000,
-},
-[OP2] = {
-	[Name] = Eminel,
-	[HP] = 180000000,
-},
-[BCB1] = {
-	[Name] = Sortudo,
-	[HP] = 35000000000000,
-},
-[JJ3] = {
-	[Name] = Ant Queen,
-	[HP] = 150000,
-},
-[BC1] = {
-	[Name] = Sortudo,
-	[HP] = 900000000000,
-},
-[SL1] = {
-	[Name] = Soondoo,
-	[HP] = 50,
-},
-[BLB1] = {
-	[Name] = Luryu,
-	[HP] = 600000000000,
-},
-[SL5] = {
-	[Name] = Anders,
-	[HP] = 15000,
-},
-[BL1] = {
-	[Name] = Luryu,
-	[HP] = 8500000000,
-},
-[OPB3] = {
-	[Name] = Light Admiral,
-	[HP] = 5000000000,
-},
-[OP1] = {
-	[Name] = Shark Man,
-	[HP] = 18000000,
-},
-[BCB3] = {
-	[Name] = Wind,
-	[HP] = 35000000000000,
-},
+local Monsters = {
+    Igris = { Name = "Vermillion", HP = 50000 },
+    SL4 = { Name = "LongIn", HP = 10000 },
+    SLB5 = { Name = "Anders", HP = 50000 },
+    OPB2 = { Name = "Eminel", HP = 5000000000 },
+    SLB2 = { Name = "Gonshee", HP = 50000 },
+    JinWoo = { Name = "Monarch", HP = 5000000000 },
+    NRB2 = { Name = "Blossom", HP = 15000000 },
+    BC2 = { Name = "Michille", HP = 5000000000000 },
+    JJ4 = { Name = "Ant King", HP = 450000 },
+    BL3 = { Name = "Genji", HP = 98500000000 },
+    BLB2 = { Name = "Fyakuya", HP = 600000000000 },
+    BC3 = { Name = "Wind", HP = 13000000000000 },
+    JJ2 = { Name = "Royal Red Ant", HP = 135000 },
+    NRB1 = { Name = "Snake Man", HP = 15000000 },
+    Ulquiorra = { Name = "Murcielago", HP = 6000000000000 },
+    NR3 = { Name = "Black Crow", HP = 3000000 },
+    Julius = { Name = "Time King", HP = 50000000000000 },
+    BL2 = { Name = "Fyakuya", HP = 38500000000 },
+    NRB3 = { Name = "Black Crow", HP = 15000000 }
+}
